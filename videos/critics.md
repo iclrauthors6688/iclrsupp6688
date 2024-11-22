@@ -1,0 +1,21 @@
+step0-sample0-0: -0.501
+step0-sample0-1: 1.100
+step0-sample0-2: -1.357
+step0-sample0-3: -3.513
+step0-sample0-4: 1.550
+step0-sample0-5: 0.188
+step0-sample0-6: 1.140
+step0-sample0-7: -2.672
+step0-sample0-8: 2.643
+step0-sample0-9: -3.230
+
+step800-sample0-0: 4.672
+step800-sample0-1: 13.469
+step800-sample0-2: 2.145
+step800-sample0-3: 1.256
+step800-sample0-4: 3.976
+step800-sample0-5: 1.245
+step800-sample0-6: 7.233
+step800-sample0-7: 4.256
+step800-sample0-8: 3.567
+step800-sample0-9: 7.453

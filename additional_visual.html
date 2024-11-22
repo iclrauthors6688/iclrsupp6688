@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+        }
+
+        h1 {
+            margin: 40px 0 20px 0;
+            padding: 10px;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .video-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            width: 80%;
+            margin: 0 auto 40px;
+            max-width: 1200px;
+        }
+
+        .video-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        .caption {
+            margin-top: 10px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .divider {
+            width: 80%;
+            height: 2px;
+            background: linear-gradient(to right, #ffffff, #000000, #ffffff);
+            margin: 40px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Step 0 vs Step 800 Video Comparison</h1>
+    <h1>action: "warm up"</h1>
+    <hr class="divider">
+
+    <!-- Video Comparison -->
+    <div class="video-container">
+        <!-- Group 1 -->
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step0-sample0-0.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 0): -0.501</b></p>
+            </div>
+        </div>
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step800-sample0-0.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 800): 4.672</b></p>
+            </div>
+        </div>
+
+        <!-- Group 2 -->
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step0-sample0-1.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 0): 1.100</b></p>
+            </div>
+        </div>
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step800-sample0-1.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 800): 13.469</b></p>
+            </div>
+        </div>
+
+        <!-- Group 3 -->
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step0-sample0-2.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 0): -1.357</b></p>
+            </div>
+        </div>
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step800-sample0-2.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 800): 2.145</b></p>
+            </div>
+        </div>
+
+        <!-- Group 4 -->
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step0-sample0-3.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 0): -3.513</b></p>
+            </div>
+        </div>
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step800-sample0-3.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 800): 1.256</b></p>
+            </div>
+        </div>
+
+        <!-- Group 5 -->
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step0-sample0-4.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 0): 1.550</b></p>
+            </div>
+        </div>
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step800-sample0-4.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 800): 3.976</b></p>
+            </div>
+        </div>
+
+
+        <!-- Group 6 -->
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step0-sample0-5.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 0): 0.188</b></p>
+            </div>
+        </div>
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step800-sample0-5.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 800): 1.245</b></p>
+            </div>
+        </div>
+
+        <!-- Group 6 -->
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step0-sample0-6.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 0): 1.140</b></p>
+            </div>
+        </div>
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step800-sample0-6.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 800): 7.233</b></p>
+            </div>
+        </div>
+
+        <!-- Group 5 -->
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step0-sample0-7.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 0): -2.672</b></p>
+            </div>
+        </div>
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step800-sample0-7.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 800): 4.256</b></p>
+            </div>
+        </div>
+        
+        <!-- Group 5 -->
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step0-sample0-8.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 0): 2.643</b></p>
+            </div>
+        </div>
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step800-sample0-8.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 800): 5.567</b></p>
+            </div>
+        </div>
+
+        <!-- Group 5 -->
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step0-sample0-9.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 0): -3.230</b></p>
+            </div>
+        </div>
+        <div class="video-item">
+            <video autoplay loop controls muted>
+                <source src="videos/step800-sample0-9.mp4" type="video/mp4">
+            </video>
+            <div class="caption">
+                <p><b>Critic Score (Step 800): 7.453</b></p>
+            </div>
+        </div>
+    </div>
+
+    <hr class="divider">
+</body>
+
+</html>
